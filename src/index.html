@@ -10,7 +10,7 @@
 </head>
 
 <body class="bg-black">
-    <div class="flex justify-center mt-24">
+    <div class="flex justify-center mt-8">
         <div class="bg-gray  w-3/4 h-24 rounded-3xl flex items-center justify-evenly text-5xl text-white">
             <div class="w-1/5">
                 <button onclick="toggle()">
@@ -27,48 +27,48 @@
     </div>
     <div class="flex justify-center">
         <div class="flex h-128 w-3/4">
-            <div id="map" class="h-fit w-fit ml-1/8 flex justify-around">
+            <div id="map" class="h-fit w-fit ml-1/8 flex justify-around" style="display: flex;">
                 <div>
-                    <div class="h-4 w-4 bg-gray rounded-sm"></div>
-                    <div class="h-16 w-4 bg-orange"></div>
-                    <div class="h-4 w-4 bg-gray rounded-sm"></div>
-                    <div class="h-16 w-4 bg-orange"></div>
-                    <div class="h-4 w-4 bg-gray rounded-sm"></div>
-                </div>
-                <div class="bg-black">
-                    _____
-                </div>
-                <div>
-                    <div class="h-14"></div>
-                    <div class="flex text-white text-3xl"><div class="h-6 w-6 bg-gray rounded-sm"></div><div class="-mt-10 -rotate-45">&nbsp Html</div></div>
+                    <div class="h-16"></div>
+                    <div class="flex text-white text-3xl">
+                        <div class="h-6 w-6 bg-gray rounded-sm"></div>
+                        <div class="-rotate-45 -mt-14 ml-4">HTML</div>
+                    </div>
                     <div class="h-20 w-6 bg-red"></div>
-                    <div class="flex text-white text-3xl"><div class="h-6 w-6 bg-gray rounded-sm"></div><div class="-mt-10 -rotate-45">&nbsp Css</div></div>
+                    <div class="flex text-white text-3xl">
+                        <div onclick="css_tail()" class="h-6 w-6 bg-gray rounded-sm"></div>
+                        <div class="-rotate-45 -mt-14 ml-4">CSS</div>
+                        <div id="css" class="flex" style="display: none;">
+                            <div class="flex h-6 w-20 -ml-17 bg-yellow rounded-sm"></div>
+                            <div class="h-6 w-6 bg-gray rounded-sm"></div>
+                            <div class=" -mt-18 -rotate-45">Tailwind</div>
+                        </div>
+                    </div>
                     <div class="h-20 w-6 bg-red"></div>
-                    <div class="flex text-white text-3xl"><div class="h-6 w-6 bg-gray rounded-sm"></div><div class="-mt-10 -rotate-45">&nbsp Js</div></div>
+                    <div class="flex text-white text-3xl">
+                        <div onclick="js_tail()" class="h-6 w-6 bg-gray rounded-sm"></div>
+                        <div class="-rotate-45 -mt-14 ml-4">JS</div>
+                        <div id="js" class="flex" style="display: flex;">
+                            <div class="flex h-6 w-20 -ml-try bg-green rounded-sm"></div>
+                            <div class="h-6 w-6 bg-gray rounded-sm"></div>
+                            <div class=" -mt-18 -rotate-45">NodeJs</div>
+                            <div class="flex h-6 w-20 -ml-try bg-green rounded-sm"></div>
+                            <div class="h-6 w-6 bg-gray rounded-sm"></div>
+                            <div class=" -mt-18 -rotate-45">NodeJs</div>
+                        </div>
+                    </div>
                     <div class="h-20 w-6 bg-red"></div>
-                    <div class="flex text-white text-3xl"><div class="h-6 w-6 bg-gray rounded-sm"></div><div class="-mt-10 -rotate-45">&nbsp PhP</div></div>
-                    
-                </div>
-                <div>
-                    
-                </div>
-                <div class="bg-black">
-                    _____
-                </div>
-                <div>
-                    <div class="h-4 w-4 bg-gray rounded-sm"></div>
-                    <div class="h-16 w-4 bg-purple"></div>
-                    <div class="h-4 w-4 bg-gray rounded-sm"></div>
-                    <div class="h-16 w-4 bg-purple"></div>
-                    <div class="h-4 w-4 bg-gray rounded-sm"></div>
-                </div>
-            </div>
+                    <div class="flex text-white text-3xl">
+                        <div class="h-6 w-6 bg-gray rounded-sm"></div>
+                        <div class="-rotate-45 -mt-14 ml-4">PhP</div>
+                    </div>
 
-            <div class="w-4/5">
+                </div>
+                <div class="w-4/5">
 
+                </div>
             </div>
         </div>
-    </div>
 </body>
 
 </html>
